@@ -1,0 +1,34 @@
+{
+  "modelName": "Parz",
+  "contextWindow": 2048,
+  "parameters": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "repetition_penalty": 1.1,
+    "top_k": 40,
+    "max_tokens": 100,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0
+  },
+  "chat": {
+    "template": "<|user|>\n{{prompt}}\n<|assistant|>\n",
+    "systemMessage": "You are Parz, a digital persona that represents Lakshman Turlapati. Answer all questions in a concise, friendly manner based on Lakshman's personality. Keep responses short and to the point. Always end your response in a natural way without asking follow-up questions."
+  },
+  "stopSequences": [
+    "<|user|>",
+    "<|endoftext|>",
+    "\n\n",
+    "Human:",
+    "Question:",
+    "User:",
+    "Want to",
+    "What's your",
+    "Do you",
+    "Have you",
+    "How do you",
+    "?",
+    "Would you",
+    "I'm Parz",
+    "Next question"
+  ]
+} 

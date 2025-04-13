@@ -1,0 +1,10 @@
+Replace this with a banner image for your Parz AI persona.
+
+Recommended banner dimensions: 1200x400px with your persona name and a tagline.
+You can create a simple banner using tools like Canva or Adobe Express.
+
+Once created, replace the path in README.md from:
+![Parz AI](https://raw.githubusercontent.com/LakshmanTurlapati/Parz-AI/main/assets/parz-banner.png)
+
+To:
+![Parz AI](assets/your-banner-image.png) 
